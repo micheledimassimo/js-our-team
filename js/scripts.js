@@ -35,8 +35,20 @@ let team = [
     
 ];
 
+const teamInfo = document.getElementById('team-info');
+
 for (i = 0; i < team.length; i++ ) {
     console.log('Name:', team[i].name);
     console.log('Role:', team[i].role);
     console.log('Photo:', team[i].photo);
+
+    teamInfo.innerHTML += `
+        <div>
+            ${team[i].name}
+            ${team[i].role}
+            ${team[i].photo}
+        </div>    
+    `;
+    
+
 }
