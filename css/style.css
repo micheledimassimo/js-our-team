@@ -25,6 +25,12 @@ header {
     text-align: center;
 
 }
+.cards > img{
+    height: 320px;
+    width: 280px;
+    object-fit: cover;
+
+}
 .cards > p:nth-child(2) {
     font-size: 1.5rem;
     font-weight: bold;

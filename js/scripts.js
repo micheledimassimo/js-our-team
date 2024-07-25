@@ -3,33 +3,33 @@ console.log('Js collegato');
 // creo l'array di oggetti
 let team = [
     {
-        name: 'Wayne Barnett',
-        role: 'Founder & CEO',
+        name:  'Wayne Barnett',
+        role:  'Founder & CEO',
         photo: 'img/wayne-barnett-founder-ceo.jpg'
     },
     {
-        name: 'Angela Caroll',
-        role: 'Chief Editor',
-        photo: 'img/angela-caroll-chief-editor.jpg'
+        name:  'Gateano Venuto',
+        role:  'English or Spanish Pro Player',
+        photo: 'img/417902989_1489998624963222_1344638366465069520_n.jpg'
     },
     {
-        name: 'Walter Gordon',
-        role: 'Office Manager',
+        name:  'Walter Gordon',
+        role:  'Office Manager',
         photo: 'img/walter-gordon-office-manager.jpg'
     },
     {
-        name: 'Angela Lopez',
-        role: 'Social Media Manager',
+        name:  'Angela Lopez',
+        role:  'Social Media Manager',
         photo: 'img/angela-lopez-social-media-manager.jpg'
     },
     {
-        name: 'Scott Estrada',
-        role: 'Developer',
+        name:  'Scott Estrada',
+        role:  'Developer',
         photo: 'img/scott-estrada-developer.jpg'
     },
     {
-        name: 'Barbara Ramos',
-        role: 'Graphic Designer',
+        name:  'Barbara Ramos',
+        role:  'Graphic Designer',
         photo: 'img/barbara-ramos-graphic-designer.jpg'
     },
     
