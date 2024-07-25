@@ -44,10 +44,10 @@ for (i = 0; i < team.length; i++ ) {
     console.log('Photo:', team[i].photo);
 
     teamInfo.innerHTML += `
-        <div class = "cards">
+        <div class = "cards"> 
+            <img src="${team[i].photo}">
             <p>${team[i].name}</p>
             <p>${team[i].role}</p>
-            <img src="${team[i].photo}">
         </div>    
     `;
 
